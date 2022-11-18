@@ -1,0 +1,11 @@
+@import "_config/var";
+@import "_config/fonts";
+@import "_config/mobile";
+body{
+    padding: 0;
+    margin: 0;
+   
+
+}
+@import "libs/*.scss";
+@import "style/*.scss";

@@ -1,0 +1,30 @@
+.start{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    &__content{
+        @include  make-container();
+        @include  max-container();
+        text-align: center;
+    }
+    &__name{
+        font-size: 25px;
+        
+    }
+    &__author{
+        font-size: 18px;
+    }
+    &__social{
+        a{
+            display: block;
+            display: inline-block;
+            border-radius: 50px;
+            color: #666;
+            width: 30px;
+            height: 30px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 35px;
+        }
+    }
+}
